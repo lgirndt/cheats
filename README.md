@@ -110,7 +110,12 @@ The basic commands
 
 Things I learned about `tmux`.
 
-All shortcuts require the prefix `C-a` (which is not default)
+All shortcuts require the prefix `C-a` (which is not default).
+
+### Genral
+
+  * `:`:
+    Enter command mode like in vim.
 
 ### Windows
 

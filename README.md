@@ -1,6 +1,10 @@
 cheats(7) -- a conclusive collection of my collected knowledge
 ==============================================================
 
+This cheat sheet is hosted at [github](https://github.com/lgirndt/cheats) and
+contains a collection of all the things I learned and want to learn about the
+tools I use.
+
 ## VIM
 
 Contains all things about vim I want to remember, but I sometimes fail

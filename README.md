@@ -7,7 +7,7 @@ tools I use.
 
 To install it as a man page to `/usr/local/share/man` run
 
-  $ make install
+    $ make install
 
 ## VIM
 

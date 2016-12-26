@@ -106,6 +106,16 @@ The basic commands
   * `zA`:
       Toggle all foldings
 
+### Working with git
+
+Requires vim-fugitive
+
+  * `,gs` or `:Gstatus`:
+    Opens a window containing an interactive git status. Use `-` to either add
+    or reset files.
+  * ':Gcommit':
+    Commits the changes.
+
 ## TMUX
 
 Things I learned about `tmux`.
@@ -117,6 +127,11 @@ All shortcuts require the prefix `C-a` (which is not default).
   * `:`:
     Enter command mode like in vim.
 
+### Session
+
+  * `$`:
+      Rename session.
+
 ### Windows
 
   * `c`:
@@ -127,6 +142,10 @@ All shortcuts require the prefix `C-a` (which is not default).
     Select next window.
   * `p`:
     Select previous window.
+  * `,`:
+    Rename window.
+  * `,`:
+    Rename window.
 
 ### Panes
 

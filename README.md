@@ -7,7 +7,7 @@ tools I use.
 
 To install it as a man page to `/usr/local/share/man` run
 
-    $ make install
+$ make install
 
 ## VIM
 
@@ -33,20 +33,22 @@ to.
 ### Movements
 
   * `123G`:
-  Goto line 123.
+      Goto line 123.
   * `%`:
       Jump between corresponding items like opening and closing braces,
       method start and ending and so on.
 
 ### Find & Replace
 
-  * `/`: Find forward.
-  * `?`: Find backwards.
+  * `/`:
+    Find forward.
+  * `?`:
+    Find backwards.
   * `/\v`:
       Find with normal (not vim) regular expressions. I've mapped `/` to already
       start with it. (custom)
   * `,<Space>`:
-  Clear highlighting.
+      Clear highlighting.
   * `:s/find/replace`:
       Replaces `find` with `replace` in a single line.
   * `:%s/find/replace`:
@@ -73,14 +75,17 @@ TODO
 
 ### Edit Surroundings
 
-All these operations require `surround.vim`. But I always forget the exact
+Most of these operations require
+[surround.vim](https//github.com/tpope/vim-surround). But I always forget the exact
 syntax. Damnit.
 
 The basic commands
   * `yss`:
-    Add surrounding
+      Add surrounding.
   * `cs`:
-    Change surrounding
+      Change surrounding.
+  * `ds`:
+      Delete surrounding.
 
 ### Format & Indention
 

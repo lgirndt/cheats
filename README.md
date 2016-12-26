@@ -113,7 +113,7 @@ Requires vim-fugitive
   * `,gs` or `:Gstatus`:
     Opens a window containing an interactive git status. Use `-` to either add
     or reset files.
-  * ':Gcommit':
+  * `:Gcommit`:
     Commits the changes.
 
 ## TMUX

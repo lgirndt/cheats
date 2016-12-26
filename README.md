@@ -7,7 +7,7 @@ tools I use.
 
 To install it as a man page to `/usr/local/share/man` run
 
-$ make install
+    $ make install
 
 ## VIM
 
@@ -41,9 +41,9 @@ to.
 ### Find & Replace
 
   * `/`:
-    Find forward.
+      Find forward.
   * `?`:
-    Find backwards.
+      Find backwards.
   * `/\v`:
       Find with normal (not vim) regular expressions. I've mapped `/` to already
       start with it. (custom)
@@ -70,8 +70,12 @@ to.
 
 ### Copy and Paste
 
-TODO
-  - mention yankstack
+Using [yankstack](https://github.com/maxbrunsfeld/vim-yankstack)
+
+  * `,p`:
+      After pasting the yank buffer, cycles through the yank buffer
+  * `,P`:
+      Cycles through the yank buffer in the other direction.
 
 ### Edit Surroundings
 
@@ -80,6 +84,7 @@ Most of these operations require
 syntax. Damnit.
 
 The basic commands
+
   * `yss`:
       Add surrounding.
   * `cs`:

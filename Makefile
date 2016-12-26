@@ -1,4 +1,4 @@
-SRC_FILE=src/cheats.md
+SRC_FILE=README.md
 DEST_FILE=build/cheats.7
 INSTALL_FILE=/usr/local/share/man/man7/cheats.7
 

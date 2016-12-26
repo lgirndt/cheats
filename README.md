@@ -112,12 +112,26 @@ Things I learned about `tmux`.
 
 All shortcuts require the prefix `C-a` (which is not default)
 
+### Windows
+
+  * `c`:
+    Create Window.
+  * `w`:
+    List all windows.
+  * `n`:
+    Select next window.
+  * `p`:
+    Select previous window.
+
 ### Panes
 
   * `%`:
       Horizontal split
   * `"`:
       Vertical split
+  * `z`:
+      Toggle zoom out pane to full window size and back. Could be used to
+      select and copy text with the mouse.
 
 ## Author
 

@@ -30,6 +30,12 @@ to.
   * `,b`:
       Fuzzy find open a buffer. Requires CommandT. (custom)
 
+### Window Handling
+
+  * `<C-w>[Left,Right,Up,Down]`:
+      If there is another window in the respective direction, move the cursor
+      there, otherwise create a window split. Stolen from
+      https://github.com/nicknisi/dotfiles (custom)
 ### Movements
 
   * `123G`:
@@ -108,13 +114,23 @@ The basic commands
 
 ### Working with git
 
-Requires vim-fugitive
+Requires vim-fugitive and vim-gitgutter
 
   * `,gs` or `:Gstatus`:
     Opens a window containing an interactive git status. Use `-` to either add
     or reset files.
   * `:Gcommit`:
     Commits the changes.
+  * `,ghs`:
+      Stage hunk below the cursor. (custom)
+  * `,ghu`:
+      Undo hunk below the cursor. (custom)
+  * `,ghn`:
+      Move cursor to next hunk. (custom)
+  * `,ghp`:
+      Move cursor to previous hunk. (custom)
+  * `,ghd`:
+      Show diff of hunk and the index. (custom)
 
 ## TMUX
 
